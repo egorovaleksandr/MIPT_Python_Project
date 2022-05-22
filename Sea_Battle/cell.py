@@ -17,3 +17,4 @@ class Cell(object):
     destroyed_ship = set_color('X', Color.yellow)
     damaged_ship = set_color('□', Color.red)
     miss_cell = set_color('•', Color.miss)
+    
