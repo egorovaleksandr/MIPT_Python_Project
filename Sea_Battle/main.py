@@ -16,3 +16,4 @@ if __name__ == '__main__':
             playing = False
     print('Спасибо за игру')
     input('')
+    
