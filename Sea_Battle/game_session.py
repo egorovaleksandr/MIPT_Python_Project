@@ -77,3 +77,4 @@ class Game_session(object):
     @staticmethod
     def Clean():
         os.system('cls' if os.name == 'nt' else 'clear')
+        
