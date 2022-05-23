@@ -63,3 +63,4 @@ class Field(object):
                 field[p_x][p_y] = cell.Cell.miss_cell
         for p_x, p_y in itertools.product(range(x, x + height), range(y, y + width)):
             field[p_x][p_y] = cell.Cell.destroyed_ship
+            
