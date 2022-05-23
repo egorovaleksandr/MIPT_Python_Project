@@ -24,3 +24,4 @@ class Ship:
         self.width, self.height = self.size, 1
         if self.rotation == state.Rotation.VERTICAL:
             self.height, self.width = self.width, self.height
+            
