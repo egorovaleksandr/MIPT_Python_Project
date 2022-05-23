@@ -90,3 +90,4 @@ class Player(object):
         tmp_ship.hp -= 1
         self.field.map[sx][sy] = cell.Cell.damaged_ship
         return state.Result.GET
+    
